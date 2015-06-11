@@ -42,6 +42,8 @@ int main()
 		temp = creator;		
 	}
 	
+	//Terminate the list
+	creator->next = NULL;
 	
 	//To print the linked list, set the connector node
 	//on the starting position (root)
